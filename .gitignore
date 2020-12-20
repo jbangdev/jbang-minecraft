@@ -1,0 +1,12 @@
+banned-ips.json
+banned-players.json
+config
+eula.txt
+logs
+mods
+ops.json
+server.properties
+usercache.json
+world
+whitelist.json
+.mixin.out

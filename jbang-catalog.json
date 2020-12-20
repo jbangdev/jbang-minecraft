@@ -1,0 +1,8 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "sponge": {
+      "script-ref": "sponge.java"
+    }
+  }
+}
