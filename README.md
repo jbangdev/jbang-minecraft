@@ -7,12 +7,21 @@ Currently using [sponge](https://spongepower.org) as it seem
 to be the Minecraft server with the best documentation and least
 amount of "hacks".
 
+Requirements: Nothing. This will download jbang and java when needed. 
+
 ### Run Minecraft
 
 If you do not have jbang installed you can run the following:
 
 ```shell
 curl -sL https://sh.jbang.dev | bash -s -- app setup && jbang sponge@jbangdev/jbang-minecraft
+```
+
+if on Windows it is:
+
+```shell
+iex "& { $(iwr https://ps.jbang.dev) } app setup"
+jbang sponge@jbangdev/jbang-minecraft
 ```
 
 When you have [jbang](https://jbang.dev) installed you can just run:
@@ -28,6 +37,7 @@ is that you need to have to specify a very long url and it will not setup `eula.
 jbang --java 8 https://repo.spongepowered.org/maven/org/spongepowered/spongevanilla/1.12.2-7.3.0/spongevanilla-1.12.2-7.3.0.jar
 ```
 
+To run with debugging just add `--debug`, as in `jbang --debug ...` and connect a debugger on port 4004.
 ### Write a Minecraft plugin
 
 Note: You do not need to run Minecraft with jbang to develop a plugin with jbang. It is completely independent.
@@ -99,6 +109,10 @@ jbang export ExamplePlugin.java
 You should now have `mods\ExamplePlugin.jar`.
 
 Now restart your Minecraft Server and you should see it start and keep counting up.
+
+For every change you will do the same, export the jar and then restart the server.
+
+
 
 
 
