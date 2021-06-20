@@ -3,7 +3,7 @@
 This is a work in progress in trying to see how to make
 Minecraft launching and development easier with jbang.
 
-Currently using [sponge](https://spongepower.org) as it seem
+Currently using [sponge](https://www.spongepowered.org) as it seem
 to be the Minecraft server with the best documentation and least
 amount of "hacks".
 
