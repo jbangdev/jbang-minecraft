@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "msgilligan",
+      "name": "Sean Gilligan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61612?v=4",
+      "profile": "http://code.msgilligan.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "jbang-minecraft",
+  "projectOwner": "jbangdev",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
